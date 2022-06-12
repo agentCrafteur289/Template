@@ -18,15 +18,15 @@ nav{
     border-bottom: 5px solid #6F6F6F;
 }
 
-nav h1 {
+/* nav h1 {
     color: #717171;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-}
+} */
 
 nav .onglets{
 margin-top: 3px;
-margin-left: 300px;
+margin-left: 200px;
 }
 
 nav .onglets a {
@@ -45,6 +45,7 @@ header{
     background-size: cover;
     color: white;
     padding: 40px;
+    border-bottom: 5px solid #6F6F6F;
 }
 
 header h1{
