@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -58,13 +59,13 @@ header h4{
     border-bottom: 1px solid #fff;
 }
 
-header button{
+header .button{
     padding: 10px 20px;
     background-color: #fff;
     color:#000;
     border:none;
     margin-bottom: 30px;
-    outline:none;
+    outline: none;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
@@ -136,6 +137,68 @@ footer #contact{
     color: rgb(181, 181, 181);
 }
 
+
+/* Le MENU */
+
+/* nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6F6F6F;
+}
+
+nav h1 {
+    color: #717171;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+} */
+
+.mainMenu{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: flex;
+    align-items: center;
+    /* left: -20%; */
+    /* position: relative; */
+}
+
+.mainMenu .contentMenu .cardMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    /* position: relative; */
+}
+
+.mainMenu .contentMenu .cardMenu .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+
+    /* position: relative; */
+}
+
+.mainMenu .contentMenu .cardMenu.right{
+    flex: 0 0 70%;
+
+    /* position: relative; */
+}
+
+.mainMenu .contentMenu .cardMenu .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+
+    /* position: relative; */
+}
+
+
+
+/* Pour la version Telephone */
 @media screen and (max-width:680px){
     nav .onglets{
         margin-left: 0px;
